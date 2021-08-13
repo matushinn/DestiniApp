@@ -34,6 +34,9 @@
                                             <constraint firstAttribute="height" constant="100" id="EdS-xm-NJO"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="choice1Background"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9JT-LR-48p"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGG-Jf-puW">
                                         <rect key="frame" x="0.0" y="718" width="374" height="100"/>
@@ -41,6 +44,9 @@
                                             <constraint firstAttribute="height" constant="100" id="9W8-Yu-nKt"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="choice2Background"/>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YjY-u7-AJA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
